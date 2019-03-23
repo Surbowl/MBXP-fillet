@@ -16,7 +16,7 @@ namespace MBXP_Fillet
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new H_i_o());
+            Application.Run(new h_i());
         }
     }
 }
