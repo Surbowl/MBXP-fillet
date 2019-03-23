@@ -47,9 +47,10 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(5, 5);
             this.Name = "H_r_o";
-            this.Opacity = 0.25D;
+            this.Opacity = 0.3D;
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "h_r_o";
             this.TopMost = true;
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.h_r_o_Paint);

@@ -72,7 +72,6 @@
             this.autoStart.Name = "autoStart";
             this.autoStart.Size = new System.Drawing.Size(514, 36);
             this.autoStart.Text = "将软件放至“启动”文件夹，可开机自启动";
-            this.autoStart.Click += new System.EventHandler(this.autoStart_Click);
             // 
             // email
             // 
@@ -80,7 +79,6 @@
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(514, 36);
             this.email.Text = "surbowl@gmail.com";
-            this.email.Click += new System.EventHandler(this.email_Click);
             // 
             // H_i_o
             // 
@@ -97,9 +95,10 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(5, 5);
             this.Name = "H_i_o";
-            this.Opacity = 0.25D;
+            this.Opacity = 0.3D;
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "H_i_o";
             this.TopMost = true;
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.H_i_o_Paint);

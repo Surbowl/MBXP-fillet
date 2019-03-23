@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MBXP Fillet.exe" size="168920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MBXP Fillet.exe" size="168408">
       <assemblyIdentity name="MBXP Fillet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5bp8Xcu9H9GCeacbml43ugrn2mP96F13SfcOyXRsmS8=</dsig:DigestValue>
+        <dsig:DigestValue>6zb2Tx85TO3vWHKojK89bJ93UIiTKWYGUWhw3rhmkjA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

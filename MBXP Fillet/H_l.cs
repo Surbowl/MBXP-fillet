@@ -11,8 +11,6 @@ namespace MBXP_Fillet
         /// </summary>
         public H_l()
         {
-            this.StartPosition = FormStartPosition.Manual;
-            this.Location = new Point(0, 0);
             InitializeComponent();
         }
 
@@ -30,9 +28,8 @@ namespace MBXP_Fillet
         {
             get
             {
-                const int WS_EX_TOOLWINDOW = 0x80;
                 CreateParams cp = base.CreateParams;
-                cp.ExStyle |= WS_EX_TOOLWINDOW;      // 不显示在Alt+Tab
+                cp.ExStyle |= 0x80;      // 不显示在Alt+Tab
                 return cp;
             }
         }

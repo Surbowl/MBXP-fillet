@@ -49,6 +49,7 @@
             this.Name = "H_l";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "H_l";
             this.TopMost = true;
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.H_l_Paint);
