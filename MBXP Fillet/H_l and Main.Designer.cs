@@ -1,6 +1,6 @@
 ﻿namespace MBXP_Fillet
 {
-    partial class H_i_o
+    partial class h_i
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(H_i_o));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(h_i));
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.exit = new System.Windows.Forms.ToolStripMenuItem();
@@ -80,28 +80,28 @@
             this.email.Size = new System.Drawing.Size(514, 36);
             this.email.Text = "surbowl@gmail.com";
             // 
-            // H_i_o
+            // h_i
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(5, 5);
+            this.ClientSize = new System.Drawing.Size(14, 14);
             this.ControlBox = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(5, 5);
+            this.MaximumSize = new System.Drawing.Size(14, 14);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(5, 5);
-            this.Name = "H_i_o";
-            this.Opacity = 0.3D;
+            this.MinimumSize = new System.Drawing.Size(14, 14);
+            this.Name = "h_i";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "H_i_o";
+            this.Text = "H_i";
             this.TopMost = true;
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.H_i_o_Paint);
+            this.Load += new System.EventHandler(this.h_l_Load);
             this.contextMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
 

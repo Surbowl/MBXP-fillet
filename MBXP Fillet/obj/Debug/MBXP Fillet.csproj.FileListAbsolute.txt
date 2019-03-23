@@ -40,10 +40,7 @@ D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fil
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\bin\Debug\MBXP Fillet.exe
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\bin\Debug\MBXP Fillet.pdb
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP Fillet.csprojAssemblyReference.cache
-D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP_Fillet.H_l.resources
-D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP_Fillet.H_i_o.resources
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP_Fillet.H_r.resources
-D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP_Fillet.H_r_o.resources
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP_Fillet.Properties.Resources.resources
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP Fillet.csproj.GenerateResource.cache
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP Fillet.csproj.CoreCompileInputs.cache
@@ -52,3 +49,4 @@ D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fil
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP Fillet.application
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP Fillet.exe
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP Fillet.pdb
+D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Debug\MBXP_Fillet.h_i.resources

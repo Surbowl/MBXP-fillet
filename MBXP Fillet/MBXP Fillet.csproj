@@ -24,8 +24,8 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -87,43 +87,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="H_l.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="H_l.Designer.cs">
-      <DependentUpon>H_l.cs</DependentUpon>
-    </Compile>
     <Compile Include="H_r.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="H_r.Designer.cs">
       <DependentUpon>H_r.cs</DependentUpon>
     </Compile>
-    <Compile Include="H_r_o.cs">
+    <Compile Include="H_l and Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="H_r_o.Designer.cs">
-      <DependentUpon>H_r_o.cs</DependentUpon>
-    </Compile>
-    <Compile Include="H_l_o and Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="H_l_o and Main.Designer.cs">
-      <DependentUpon>H_l_o and Main.cs</DependentUpon>
+    <Compile Include="H_l and Main.Designer.cs">
+      <DependentUpon>H_l and Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="H_l.resx">
-      <DependentUpon>H_l.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="H_l_o and Main.resx">
-      <DependentUpon>H_l_o and Main.cs</DependentUpon>
+    <Compile Include="Win32.cs" />
+    <EmbeddedResource Include="H_l and Main.resx">
+      <DependentUpon>H_l and Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="H_r.resx">
       <DependentUpon>H_r.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="H_r_o.resx">
-      <DependentUpon>H_r_o.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -164,6 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

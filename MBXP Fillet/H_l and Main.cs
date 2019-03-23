@@ -3,21 +3,34 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
+/*=======================================
+ * 
+ * 本软件仅适用于 Huawei Matebook X Pro
+ * 各种待完善= =。
+ * 本人24K小白，求各位大大指点= =。
+ * Email:  surbowl@gmail.com
+ * 
+ =======================================*/
+
+//app.manifest中已指示该应用程序在 DPI 较高时将不会进行自动缩放
+//BackgroundImage大小为14x14
+
 namespace MBXP_Fillet
 {
     /// <summary>
-    /// 右上角圆角
+    /// 左上角圆角,兼任主窗体
     /// </summary>
-    public partial class h_r : Form
+    public partial class h_i : Form
     {
         bool haveHandle = false;//窗体句柄创建完成
-        public h_r()
+        public h_i()
         {
-            this.Location = new Point(Screen.PrimaryScreen.Bounds.Width - 14, 0);//BackgroundImage大小为14x14
             InitializeComponent();
+            this.notifyIcon.Visible = true;
+            new h_r().Show();
         }
 
-        private void h_r_Load(object sender, EventArgs e)
+        private void h_l_Load(object sender, EventArgs e)
         {
             SetBits(new Bitmap(BackgroundImage));//设置不规则窗体
         }
@@ -100,5 +113,10 @@ namespace MBXP_Fillet
             }
         }
         #endregion
+
+        private void exit_Click(object sender, System.EventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
     }
 }
