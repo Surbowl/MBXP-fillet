@@ -13,7 +13,7 @@ using System.Windows.Forms;
  * 
  =======================================*/
 
-//app.manifest中已指示该应用程序在 DPI 较高时将不会进行自动缩放
+//app.manifest中已指示该应用程序在系统 DPI 较高时将不会进行自动缩放
 //BackgroundImage大小为14x14
 
 namespace MBXP_Fillet

@@ -43,7 +43,7 @@
             this.notifyIcon.BalloonTipText = "\r\n";
             this.notifyIcon.ContextMenuStrip = this.contextMenuStrip;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-            this.notifyIcon.Text = "MBXP Fillet";
+            this.notifyIcon.Text = "MBXP Fillet v1.3";
             this.notifyIcon.Visible = true;
             // 
             // contextMenuStrip
