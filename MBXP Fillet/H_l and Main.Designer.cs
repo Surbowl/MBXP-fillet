@@ -43,7 +43,7 @@
             this.notifyIcon.BalloonTipText = "\r\n";
             this.notifyIcon.ContextMenuStrip = this.contextMenuStrip;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-            this.notifyIcon.Text = "MBXP Fillet v1.3";
+            this.notifyIcon.Text = "MBXP Fillet v1.3.1";
             this.notifyIcon.Visible = true;
             // 
             // contextMenuStrip
@@ -61,7 +61,7 @@
             // 
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(514, 36);
-            this.exit.Text = "退出 exit";
+            this.exit.Text = "退出 Exit";
             this.exit.ToolTipText = "exit";
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
