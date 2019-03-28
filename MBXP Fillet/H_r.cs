@@ -12,16 +12,15 @@ namespace MBXP_Fillet
     {
         bool haveHandle = false;//窗体句柄创建完成
         public h_r()
-        {
-            
-            this.Location = new Point(Screen.PrimaryScreen.Bounds.Width - 14, 0);//BackgroundImage大小为14x14
+        {    
             InitializeComponent();
-            SetPenetrate();
         }
 
         private void h_r_Load(object sender, EventArgs e)
         {
+            this.Location = new Point(Screen.PrimaryScreen.Bounds.Width - 14, 0);//BackgroundImage大小为14x14
             SetBits(new Bitmap(BackgroundImage));//设置不规则窗体
+            SetPenetrate();//设置窗体具有鼠标穿透效果 
         }
 
         #region 防止窗体闪屏

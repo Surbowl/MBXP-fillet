@@ -25,18 +25,19 @@ namespace MBXP_Fillet
     {
         bool haveHandle = false;//窗体句柄创建完成
         Form h_r;
+
         public h_i()
         {
             InitializeComponent();
-            this.notifyIcon.Visible = true;
-            SetPenetrate();
-            h_r = new h_r();
+            this.h_r = new h_r();
         }
 
         private void h_l_Load(object sender, EventArgs e)
         {
+            this.notifyIcon.Visible = true;
             SetBits(new Bitmap(BackgroundImage));//设置不规则窗体
-            h_r.Show();
+            SetPenetrate();//设置窗体具有鼠标穿透效果 
+            h_r.Show();//显示右上角圆角
         }
 
         #region 防止窗体闪屏

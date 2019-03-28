@@ -13,3 +13,4 @@ D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fil
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Release\MBXP Fillet.application
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Release\MBXP Fillet.exe
 D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Release\MBXP Fillet.pdb
+D:\Surbowl\Documents\GitHub\MBXP Fillet\MBXP-Fillet-Rounded-screen-tool\MBXP Fillet\obj\Release\MBXP Fillet.csprojAssemblyReference.cache
