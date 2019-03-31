@@ -162,5 +162,10 @@ namespace MBXP_Fillet
         {
             System.Environment.Exit(0);
         }
+
+        private void h_i_Shown(object sender, EventArgs e)
+        {
+            this.TopMost = true;
+        }
     }
 }

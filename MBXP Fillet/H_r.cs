@@ -140,5 +140,10 @@ namespace MBXP_Fillet
             //SetLayeredWindowAttributes(this.Handle, 0, 100, LWA_ALPHA);
         }
         #endregion
+
+        private void h_r_Shown(object sender, EventArgs e)
+        {
+            this.TopMost = true;
+        }
     }
 }
