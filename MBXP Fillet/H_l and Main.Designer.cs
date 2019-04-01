@@ -100,6 +100,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "H_i";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.h_l_Load);
             this.Shown += new System.EventHandler(this.h_i_Shown);
             this.contextMenuStrip.ResumeLayout(false);
