@@ -62,13 +62,13 @@
       <dsig:DigestValue>C9LiH09hlk2QJG7UPvL2bmCm9nK/VQLtVjgvTAo8JkY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="MBXP Fillet.exe.config" size="189">
+  <file name="MBXP Fillet.exe.config" size="294">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+      <dsig:DigestValue>rqtxJcwHvRcKCexnkHvZyYIc18kypy2E/uoh9YF+MJU=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
