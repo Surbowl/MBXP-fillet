@@ -1,5 +1,5 @@
-﻿# MBXP Fillet
-<img id="mbxpFillet" src="https://raw.githubusercontent.com/Surbowl/MBXP-Fillet-Rounded-screen-tool/master/images/icon128.ico" height="65" vspace="5" hspace="5"><br>
+# MBXP Fillet
+<img src="https://raw.githubusercontent.com/Surbowl/MBXP-Fillet-Rounded-screen-tool/master/images/icon128.ico" height="65" vspace="5" hspace="5"><br>
 <b><a href="https://github.com/Surbowl/MBXP-Fillet-Rounded-screen-tool/raw/master/Download/MBXP%20Fillet%20v1.2.zip">下载 MBXP Fillet v1.2</a><br></b>
 <b><a href="https://github.com/Surbowl/MBXP-Fillet-Rounded-screen-tool/raw/master/Download/MBXP%20Fillet%20v1.3%20beta.zip">下载 MBXP Fillet v1.3 beta</a></b><br><font size="2">v1.3beta</font><i style="overflow-wrap: break-word; color: rgb(51, 51, 51); font-family: &quot;Microsoft Yahei&quot;, STHeiti, Simsun, STSong;"><font size="2">版新增了鼠标穿透特性，鼠标在圆角上的操作（例如点击、拖拽）会被传导到下层窗体，使鼠标可以无视圆角的存在，更不易妨碍操作，推荐使用v1.3</font></i>
 <div><br>Huawei Matebook X Pro专用的圆角屏幕工具MBXP Fillet，</div><div>让MBXP“拥有”美观的圆角屏幕。</div><div>此程序属个人作品，与Huawei官方无任何关系。</div><div><br><img src="https://github.com/Surbowl/MBXP-Fillet-Rounded-screen-tool/blob/master/images/en.png?raw=true"></div>
